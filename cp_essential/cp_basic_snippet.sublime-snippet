@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+#include<bits/stdc++.h>
+#define ll long long int
+
+using namespace std;
+
+/* ll binaryToDecimal(string s){
+	ll ans=0;
+	for(int i=0;i<s.length();++i){
+		if(s[i]=='0'){
+			ans=ans*2+0;
+		}else{
+			ans=ans*2+1;
+		}
+	}
+	return ans;
+} */
+
+void solve() {
+	
+}
+
+int main() {
+	ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+
+	int t=1;
+	cin >> t;
+	while(t--)
+		solve();
+	
+}
+]]></content>
+  <tabTrigger>cp</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
