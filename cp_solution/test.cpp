@@ -1,29 +1,18 @@
-#include<bits/stdc++.h>
-#define ll long long int
-
+#include<iostream>
 using namespace std;
 
-void solve() {
-	int n;
-	cin >> n;
-	vector<int>arr(n,0);
-	for(int i=0;i<n;++i)
-		arr[i]=n-i;
-	auto start_time=clock();
-	sort(arr.begin(),arr.end());
-	auto end_time=clock();
-	cout<<end_time-start_time<<endl;
+int power_calc(int base, int exponent){
+	int result=1;
+	while (exponent != 0) {
+    result *= base;
+    --exponent;
+	}
+	return result;
 }
 
 int main() {
-#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-#endif
-
-	int t=1;
-	cin >> t;
-	while(t--)
-		solve();
-	
+	// int x=5 & 6;
+	int x=6;
+	x ^= 1;
+	cout<<x<<endl;
 }
